@@ -7,3 +7,9 @@
   grid-template-rows: 200px 200px;
   grid-gap: 10px 15px;
 }
+
+.image {
+  max-height: 50px;
+  max-width: 70px;
+  
+}
