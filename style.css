@@ -21,8 +21,8 @@ h2 {
 
 
 .team_image {
-    height: auto;
-    width: auto;
+    height: 50%;
+    width: 50%;
     max-width: 1000px;
     max-height: 1000px;
 }
