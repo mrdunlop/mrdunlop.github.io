@@ -1,12 +1,39 @@
+@font-face {
+  font-family: 'sf_sports_nightregular';
+  src: url('sfsportsnight-webfont.woff2') format('woff2'),
+  url('sfsportsnight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  
+}
+
+
 header {
   position: fixed;
   width = 100%;
 }
 
+body {
+  overflow-x: hidden;
+  width = 100%;
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 75px;
+  font-family: 'sf_sports_nightregular', sans-serif;
+  margin-bottom: 0px;
+/*    font-family: 'Bowlby One SC', cursive; */
+}
+
 h2 {
-  font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
-  color: #fff;
-  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+  font-size: 80px;
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+  color: black;
+  margin-top: 0px;
+  /*  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); */
 }
 
 .grid {
@@ -21,9 +48,8 @@ h2 {
 
 
 .team_image {
-    height: 50%;
-    width: 50%;
-    max-width: 1000px;
-    max-height: 1000px;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
-
